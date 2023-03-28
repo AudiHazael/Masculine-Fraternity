@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Caveat:wght@700&family=Courgette&family=Fraunces:ital,wght@0,700;1,700&family=Handlee&family=Inconsolata:wght@200&family=Playfair+Display&display=swap');
+
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+body,
+p {
+    color: #787976;
+    
+    font: 400 1rem/1.625rem "Montserrat", sans-serif;
+}
+
+hr {
+    width: 50%;
+}
+
+h1 {
+    color: #484a46;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    color: #484a46;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h5 {
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h6 {
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.p-large {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.p-small {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+a {
+    color: #2f5ba7ce;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #051126;
+    text-decoration: none;
+    transform: scale(1.05);
+    transition: ease 1s;
+}
+
+/* Form */
+.form-floating label {
+    margin-left: 0.5rem;
+    color: #72719b;
+}
+
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label,
+.form-floating>.form-select~label {
+    transform: scale(0.85) translateY(-.75rem) translateX(.15rem);
+}
+
+.form-floating .form-control {
+    padding-left: 1.25rem;
+}
+
+.form-select {
+    height: calc(3.5rem + 2px);
+    padding-left: 1.25rem;
+    color: #72719b;
+}
+
+.form-floating textarea.form-control {
+    height: 100%;
+}
+
+.form-floating .form-control:hover,
+.form-select:hover {
+    border: 1px solid #a1a1a1;
+}
+
+.form-control-submit-button {
+    display: inline-block;
+    width: 100%;
+    height: 3.625rem;
+    border: 1px solid #153e52;
+    border-radius: 2px;
+    background-color: #153e52;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.form-control-submit-button:hover {
+    border: 1px solid #153e52;
+    background-color: transparent;
+    color: #153e52;
+}
+
+
+
+/* Header */
+header {
+    background: linear-gradient(rgba(27, 25, 25, 0.74), rgb(0, 0, 0)), url('../Images/image.png') center center no-repeat;
+    opacity: .95;
+    background-size: cover;
+    padding-bottom: 4em;
+}
+
+nav ul li a {
+    margin: 0 2em;
+    color: #ffffff;
+}
+
+nav ul li a :hover {
+    color: rgba(222, 184, 135, 0.384);
+    transform: scale(1.25);
+    transition: all 0.5s ease-in-out;
+}
+
+img {
+    margin: 1em 0;
+}
+
+a.logo h4 {
+    color: #ffffff;
+    font-family: 'Handlee', cursive;
+    font-size: 2em;
+}
+
+a.logo h4 span {
+    color: rgb(151, 132, 106);
+}
+
+.heroContainer,
+.articleTitle {
+    text-align: center;
+}
+
+.articleTitle h1,
+.articleTitle h2,
+.articleTitle p,
+.heroContainer h1,
+.heroContainer h2,
+.heroContainer p {
+    color: rgb(133, 132, 132);
+    line-height: 1.6em;
+    letter-spacing: .01em;
+}
+
+.articleTitle p,
+.valuesContainer p {
+    text-align: justify;
+}
+
+
+.heroContainer,
+.articleTitle {
+    padding: 6em 0 4em 0;
+}
+
+/* Section */
+.aboutContainer,
+.articleContainer,
+.subscribeContainer,
+.valuesContainer {
+    padding: 4em 0 4em 0;
+}
+
+.aboutContainer {
+    text-align: justify;
+}
+
+.articleContainer {
+    text-align: justify;
+}
+
+div.articleContainer,
+div.valuesContainer {
+    background-color: #f0f0f0
+}
+
+.articleContainer .col-lg-7 hr {
+    height: 20px;
+    width: 100%;
+    color: rgb(206, 188, 165);
+    border-radius: 5px;
+}
+
+
+/* Footer */
+footer {
+    background: linear-gradient(rgba(27, 25, 25, 0.74), rgb(0, 0, 0)), url('../Images/image.png') center center no-repeat;
+    opacity: .95;
+    background-size: cover;
+    padding: 2em 0 2em 0;
+    text-align: center;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+footer a img {
+    margin: 0 .5em;
+}
+
+footer a img:hover {
+    border-radius: 5px;
+    transform: scale(1.25);
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
+
+/* articleSample.html */
+
+.articleSection .col-lg-4 .container {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(222, 184, 135, 0.384);
+}
